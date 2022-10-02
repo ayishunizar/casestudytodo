@@ -1,0 +1,42 @@
+
+#main-holder{
+  border: 3px solid black;
+  height: 28em;
+  width: 40%;
+  margin-top: 115px;
+  margin-left: 405px;
+  text-align: center;
+  justify-items: center;
+  background-color: lightskyblue;
+  border-style: outset;
+  box-shadow: 0px 0px 5px 2px black;
+}
+#login-form{
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#login-header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    color: black;
+}
+
+  #login-error-msg-holder{
+     margin-left: 225px;
+     width: 55%;
+  }
+#login-error-msg {
+    margin-left: 35px;
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
